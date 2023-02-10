@@ -12,7 +12,7 @@
         android:id="@+id/btnRight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="doClickRight"
+        android:onClick="doClick"
         android:text="RIGHT"
         tools:layout_editor_absoluteX="158dp"
         tools:layout_editor_absoluteY="86dp" />
@@ -21,6 +21,12 @@
         android:id="@+id/btnLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="doClickLeft"
+        android:onClick="doClick"
         android:text="LEFT" />
+
+    <TextView
+        android:id="@+id/textNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
 </LinearLayout>
